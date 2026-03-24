@@ -4,28 +4,10 @@
    Fonts: Season Serif (headings), PP Neue Montreal (body)
    ========================================== */
 
-/* --- FONT FACES --- */
-@font-face {
-  font-family: 'Season Serif';
-  src: url('https://krammerjahn.de/wp-content/uploads/fonts/SeasonSerif-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('https://krammerjahn.de/wp-content/uploads/fonts/PPNeueMontreal-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('https://krammerjahn.de/wp-content/uploads/fonts/PPNeueMontreal-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+/* --- FONTS (Google Fonts loaded in HTML) ---
+   DM Serif Display = similar to Season Serif (elegant, light serif)
+   Inter = similar to PP Neue Montreal (modern, clean sans-serif)
+   --- */
 
 /* --- CSS VARIABLES --- */
 :root {
@@ -36,8 +18,8 @@
   --color-bg-dark: #0f0e17;
   --color-text: #081935;
   --color-text-light: #fffffe;
-  --font-heading: 'Season Serif', Georgia, 'Times New Roman', serif;
-  --font-body: 'PP Neue Montreal', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --header-height: 80px;
   --container-width: 1200px;
   --spacing-xs: 8px;
